@@ -7,7 +7,11 @@
     Try changing "table" to "view" below
 */
 
+<<<<<<< HEAD
+{{ config(materialized='table') }}
+=======
 {{ config(materialized='view') }}
+>>>>>>> 7778a7b1c1145ccc2f78846224dd474214419530
 
 with source_data as (
 
