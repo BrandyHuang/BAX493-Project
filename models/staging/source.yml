@@ -1,0 +1,10 @@
+sources:
+  - name: jaffle_shop
+    database: genial-theory-464317-j2
+    schema: jaffle_shop
+    tables:
+      - name: customers
+      - name: orders
+      - name: items
+      - name: products
+      - name: suppliers
